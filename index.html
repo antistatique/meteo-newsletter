@@ -1,11 +1,99 @@
-<spacer size="16"></spacer>
-<container>
+
+<wrapper class="body">
+  <wrapper class="header">
+    <container class="header">
+      <spacer size="16"></spacer>
+      <row>
+        <columns small="6" align="left">
+          <h4>Enquête de satisfaction client</h4>
+        </columns>
+        <columns small="6">
+          <h4 class="text-right">Afficher la <webversion style="color:#808098!important; text-decoration: underline;">version web</webversion></h4>
+        </columns>
+      </row>
+      <row>
+      <columns>
+        <a href="http://antistatique.net/"><img src="logo.png" alt="Antistatique" style="width:159px;"></a>
+      </columns>
+      </row>
+    </container>
+  </wrapper> 
+  <wrapper class="content">
+    <container class="content">
+      <spacer size="16"></spacer>
+      <row>
+        <columns align="left">
+          <h1><singleline label="Titre">Votre satisfaction est importante !</singleline></h1>
+          <spacer size="16"></spacer>
+          <multiline label="texte">
+            <p>Bonjour !<br><br>
+            Garants de la qualité de notre travail, nous vous remercions d'avance de prendre quelques secondes de votre temps pour répondre à notre question, afin d'améliorer nos prestations et mieux répondre à vos besoins.<br><br>
+            <b>Quelle est la météo de la semaine dans le cadre de votre projet  avec Antistatique ?</b></p>
+          </multiline>
+        </columns>
+      </row>
+      <spacer size="16"></spacer>
+      <row>
+        <columns small="6">
+          <div class="meteo">
+            <center>
+            <a href="https://antistatique.net/fr/feedback-1">
+              <img class="meteo" src="cloud.png" alt="averses fréquentes">
+            </a>
+            <a href="https://antistatique.net/fr/feedback-2">
+              <img class="meteo" src="cloud.png" alt="nuages élevés">
+            </a>
+            <a href="https://antistatique.net/fr/feedback-3">
+              <img class="meteo" src="cloud.png" alt="en partie ensoleillé, passages nuageux parfois denses">
+            </a>
+            <a href="https://antistatique.net/fr/feedback-4">
+              <img class="meteo" src="cloud.png" alt="assez ensoleillé, quelques passages nuageux" width="100%">
+            </a>
+            <a href="https://antistatique.net/fr/feedback-5">
+              <img class="meteo" src="cloud.png" alt="ensoleillé" width="100%">
+            </a>
+            </center>
+          </div>
+        </columns>
+      </row>
+      <row>
+        <columns align="left">
+          <spacer size="16"></spacer>
+          <multiline label="texte2">
+            <p>Si vous n'êtes pas satisfait de nos prestations ou si vous avez un commentaire à faire, n'hésitez pas à répondre à cet e-mail pour nous en faire part.</p>
+          </multiline>
+          <multiline label="signature">
+            <p>- Marc</p>
+          </multiline>
+        </columns>
+      </row>
+      <div class="divider">&nbsp;</div>
+      <row>
+        <columns large="6" class="rss">
+          <h2><singleline label="Titre">Un peu de lecture</singleline></h2>
+          <datarepeater type="rss" src="https://antistatique.net/fr/blog/rss.xml">
+            <h3><rssitemlink><rsstitle /></rssitemlink></h3>
+             <p>
+              <rssbody paragraphs="1" />
+            </p>
+          </datarepeater>
+        </columns>
+      </row>
+    </container>
+  </wrapper>
   <spacer size="16"></spacer>
-  <row>
-    <columns align="left">
-      <h1>Hello {{name}}</h1>
-      <p><a href="http://google.com">My link</a></p>
-    </columns>
-  </row>
-  <spacer size="16"></spacer>
-</container>
+  <wrapper class="footer">
+    <container class="footer">
+      <row>
+        <columns large="6">
+          <spacer size="16"></spacer>
+          <p><b>Antistatique.net Sàrl</b></p>
+          <spacer size="8"></spacer>
+          <p>Vous recevez cette newsletter parce que vous êtes client ou partenaire d'Antistatique, ou parce que vous vous êtes directement inscrits à notre newsletter.</p>
+          <spacer size="8"></spacer>
+          <p><preferences style="color:#808098!important; text-decoration: underline;">Mettre à jour vos préférences</preferences> | <unsubscribe style="color:#808098!important; text-decoration: underline;">Se désinscrire</unsubscribe></p>
+        </columns>
+      </row>
+    </container>
+  </wrapper>
+</wrapper>

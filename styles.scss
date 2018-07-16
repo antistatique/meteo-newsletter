@@ -1,1 +1,50 @@
-body { background: $primary-color; }
+html, body {
+  font-family: "Helvetica", Arial, sans-serif;
+  background-color: $digital-dust;
+}
+.body { background-color: $digital-dust;}
+.header { background-color: $digital-dust;}
+.footer, .footer p { 
+  background-color: $digital-dust; 
+  font-size: 12px; 
+  color: $midnight-blue;
+  }
+h1 { 
+  color: $midnight-blue;
+  font-size: 30px;
+  }
+h2 {
+  font-weight: bold;
+  color: $midnight-blue;
+  font-size: 24px;
+}
+h3 {
+  font-weight: bold;
+  color: $primary-color;
+  font-size: 18px;
+}
+h4 {
+  color: $ninja-grey;
+  font-size: 12px; 
+  }
+p {
+  color: $midnight-blue;
+  font-size: 16px;
+}
+a {
+  color: $primary-color!important;
+  text-decoration: none;
+}
+.divider {
+  display: block;
+  font-size: 2px;
+  line-height: 2px; 
+  margin-left: auto; 
+  margin-right: auto;width: 40px;
+  background-color: #afc7c7;
+  margin-bottom: 20px;
+}
+.meteo {
+  display: inline;
+  margin: 0 10px;
+}
