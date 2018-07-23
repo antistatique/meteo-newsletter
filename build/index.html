@@ -229,6 +229,37 @@
     min-width: 0;
   }
 }
+
+
+@media screen and (max-width: 760px) {
+  img.meteo {
+    width: 80px !important;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  img.meteo {
+    max-width: 60px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  h1 {
+    font-size: 32px !important;
+  }
+  h2 {
+    font-size: 28px !important;
+  }
+  h3 {
+    font-size: 24px !important;
+  }
+  h4 {
+    font-size: 18px !important;
+  }
+  p {
+    font-size: 18px !important;
+  }
+}
 </style>
   <!-- So that mobile webkit will display zoomed in -->
 <meta name="format-detection" content="telephone=no">
@@ -268,7 +299,7 @@
           <h1 style="Margin: 0; Margin-bottom: 10px; color: #000032; font-family: Helvetica,Arial,sans-serif; font-size: 30px; font-weight: normal; line-height: 1.3; margin: 0; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: normal;"><singleline label="Titre">Votre satisfaction est importante !</singleline></h1>
           <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="16px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 16px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
           <multiline label="texte">
-            <p style="Margin: 0; Margin-bottom: 10px; color: #000032; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;">Bonjour !<br><br>
+            <p style="Margin: 0; Margin-bottom: 10px; color: #000032; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;">Bonjour [PrénomDécideur,fallback=]!<br><br>
             Garants de la qualité de notre travail, nous vous remercions d'avance de prendre quelques secondes de votre temps pour répondre à notre question, afin d'améliorer nos prestations et mieux répondre à vos besoins.<br><br>
             <b>Quelle est la météo de la semaine dans le cadre de votre projet  avec Antistatique ?</b></p>
           </multiline>
@@ -277,49 +308,51 @@
       </tr></tbody></table>
       <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="16px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 16px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
       <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
-        <th class="small-6 large-6 columns first last" style="Margin: 0 auto; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 16px; padding-right: 16px; text-align: left; width: 274px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left;">
-          <div class="meteo" style="display: inline; margin: 0 10px;">
-            <center data-parsed="" style="min-width: 242px; width: 100%;">
-            <a href="https://antistatique.net/fr/feedback-1" align="center" class="float-center" style="Margin: 0; color: #e30074 !important; font-family: Helvetica,Arial,sans-serif; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">
-              <img class="meteo" src="cloud.png" alt="averses fr&#xE9;quentes" style="-ms-interpolation-mode: bicubic; border: none; clear: both; display: inline; margin: 0 10px; max-width: 100%; outline: none; text-decoration: none; width: auto;">
-            </a>
-            <a href="https://antistatique.net/fr/feedback-2" align="center" class="float-center" style="Margin: 0; color: #e30074 !important; font-family: Helvetica,Arial,sans-serif; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">
-              <img class="meteo" src="cloud.png" alt="nuages &#xE9;lev&#xE9;s" style="-ms-interpolation-mode: bicubic; border: none; clear: both; display: inline; margin: 0 10px; max-width: 100%; outline: none; text-decoration: none; width: auto;">
-            </a>
-            <a href="https://antistatique.net/fr/feedback-3" align="center" class="float-center" style="Margin: 0; color: #e30074 !important; font-family: Helvetica,Arial,sans-serif; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">
-              <img class="meteo" src="cloud.png" alt="en partie ensoleill&#xE9;, passages nuageux parfois denses" style="-ms-interpolation-mode: bicubic; border: none; clear: both; display: inline; margin: 0 10px; max-width: 100%; outline: none; text-decoration: none; width: auto;">
-            </a>
-            <a href="https://antistatique.net/fr/feedback-4" align="center" class="float-center" style="Margin: 0; color: #e30074 !important; font-family: Helvetica,Arial,sans-serif; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">
-              <img class="meteo" src="cloud.png" alt="assez ensoleill&#xE9;, quelques passages nuageux" width="100%" style="-ms-interpolation-mode: bicubic; border: none; clear: both; display: inline; margin: 0 10px; max-width: 100%; outline: none; text-decoration: none; width: auto;">
-            </a>
-            <a href="https://antistatique.net/fr/feedback-5" align="center" class="float-center" style="Margin: 0; color: #e30074 !important; font-family: Helvetica,Arial,sans-serif; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">
-              <img class="meteo" src="cloud.png" alt="ensoleill&#xE9;" width="100%" style="-ms-interpolation-mode: bicubic; border: none; clear: both; display: inline; margin: 0 10px; max-width: 100%; outline: none; text-decoration: none; width: auto;">
-            </a>
-            </center>
-          </div>
-        </th></tr></table></th>
+        <th class="small-12 large-12 columns first last" style="Margin: 0 auto; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 16px; padding-right: 16px; text-align: left; width: 564px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left;">
+          <center data-parsed="" style="min-width: 532px; width: 100%;">
+          <a href="https://antistatique.net/fr/feedback-1" align="center" class="float-center" style="Margin: 0; color: #e30074 !important; font-family: Helvetica,Arial,sans-serif; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+            <img class="meteo" src="1-rain@2x-test.png" alt="pluvieux" style="-ms-interpolation-mode: bicubic; border: none; clear: both; display: inline; margin: 0; max-width: 100px; outline: none; text-decoration: none; width: auto;">
+          </a>
+
+          <a href="https://antistatique.net/fr/feedback-2" align="center" class="float-center" style="Margin: 0; color: #e30074 !important; font-family: Helvetica,Arial,sans-serif; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+            <img class="meteo" src="2-cloudy@2x-test.png" alt="nuageux" style="-ms-interpolation-mode: bicubic; border: none; clear: both; display: inline; margin: 0; max-width: 100px; outline: none; text-decoration: none; width: auto;">
+          </a>
+
+          <a href="https://antistatique.net/fr/feedback-3" align="center" class="float-center" style="Margin: 0; color: #e30074 !important; font-family: Helvetica,Arial,sans-serif; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+            <img class="meteo" src="3-clear@2x-test.png" alt="d&#xE9;gag&#xE9;" style="-ms-interpolation-mode: bicubic; border: none; clear: both; display: inline; margin: 0; max-width: 100px; outline: none; text-decoration: none; width: auto;">
+          </a>
+
+          <a href="https://antistatique.net/fr/feedback-4" align="center" class="float-center" style="Margin: 0; color: #e30074 !important; font-family: Helvetica,Arial,sans-serif; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+            <img class="meteo" src="4-bright@2x-test.png" alt="clair" style="-ms-interpolation-mode: bicubic; border: none; clear: both; display: inline; margin: 0; max-width: 100px; outline: none; text-decoration: none; width: auto;">
+          </a>
+
+          <a href="https://antistatique.net/fr/feedback-5" align="center" class="float-center" style="Margin: 0; color: #e30074 !important; font-family: Helvetica,Arial,sans-serif; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left; text-decoration: none;">
+            <img class="meteo" src="5-sunny@2x-test.png" alt="ensoleill&#xE9;" style="-ms-interpolation-mode: bicubic; border: none; clear: both; display: inline; margin: 0; max-width: 100px; outline: none; text-decoration: none; width: auto;">
+          </a>
+          </center>
+        </th>
+<th class="expander" style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
       </tr></tbody></table>
       <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
         <th class="small-12 large-12 columns first last" align="left" style="Margin: 0 auto; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 16px; padding-right: 16px; text-align: left; width: 564px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left;">
-          <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="16px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 16px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
           <multiline label="texte2">
+            <p style="Margin: 0; Margin-bottom: 10px; color: #000032; font-family: Helvetica,Arial,sans-serif; font-size: 12px; font-weight: normal; line-height: 1.3; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;">Cliquer sur le pictogramme qui correspond à votre météo du projet.</p>
+            <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="16px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 16px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
             <p style="Margin: 0; Margin-bottom: 10px; color: #000032; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;">Si vous n'êtes pas satisfait de nos prestations ou si vous avez un commentaire à faire, n'hésitez pas à répondre à cet e-mail pour nous en faire part.</p>
           </multiline>
           <multiline label="signature">
-            <p style="Margin: 0; Margin-bottom: 10px; color: #000032; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;">- Marc</p>
+            <p style="Margin: 0; Margin-bottom: 10px; color: #000032; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;">- [AR,fallback=Marc]</p>
           </multiline>
         </th>
 <th class="expander" style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; padding: 0 !important; text-align: left; visibility: hidden; width: 0;"></th></tr></table></th>
       </tr></tbody></table>
       <div class="divider" style="background-color: #afc7c7; display: block; font-size: 2px; line-height: 2px; margin-bottom: 20px; margin-left: auto; margin-right: auto; width: 40px;">&nbsp;</div>
       <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
-        <th class="rss small-12 large-6 columns first last" style="Margin: 0 auto; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 16px; padding-right: 16px; text-align: left; width: 274px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left;">
+        <th class="rss small-12 large-6 columns first last" style="Margin: 0 auto; color: #e30074 !important; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 16px; padding-right: 16px; text-align: left; width: 274px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left;">
           <h2 style="Margin: 0; Margin-bottom: 10px; color: #000032; font-family: Helvetica,Arial,sans-serif; font-size: 24px; font-weight: bold; line-height: 1.3; margin: 0; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: normal;"><singleline label="Titre">Un peu de lecture</singleline></h2>
           <datarepeater type="rss" src="https://antistatique.net/fr/blog/rss.xml">
-            <h3 style="Margin: 0; Margin-bottom: 10px; color: #e30074; font-family: Helvetica,Arial,sans-serif; font-size: 18px; font-weight: bold; line-height: 1.3; margin: 0; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: normal;"><rssitemlink><rsstitle></rsstitle></rssitemlink></h3>
-             <p style="Margin: 0; Margin-bottom: 10px; color: #000032; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;">
-              <rssbody paragraphs="1">
-            </rssbody></p>
+            <div class="rss" style="color: #e30074 !important;"><h3 class="rss" style="Margin: 0; Margin-bottom: 10px; color: #e30074 !important; font-family: Helvetica,Arial,sans-serif; font-size: 18px; font-weight: bold; line-height: 1.3; margin: 0; margin-bottom: 10px; padding: 0; text-align: left; word-wrap: normal;"><rssitemlink><span style="color:#e30074; text-decoration:underline;"><rsstitle></rsstitle></span></rssitemlink></h3></div>
+            <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="8px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 8px; font-weight: normal; hyphens: auto; line-height: 8px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
           </datarepeater>
         </th></tr></table></th>
       </tr></tbody></table>
@@ -331,7 +364,7 @@
       <table class="row" style="border-collapse: collapse; border-spacing: 0; display: table; padding: 0; position: relative; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;">
         <th class="small-12 large-6 columns first last" style="Margin: 0 auto; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0 auto; padding: 0; padding-bottom: 16px; padding-left: 16px; padding-right: 16px; text-align: left; width: 274px;"><table style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tr style="padding: 0; text-align: left; vertical-align: top;"><th style="Margin: 0; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; line-height: 1.3; margin: 0; padding: 0; text-align: left;">
           <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="16px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 16px; font-weight: normal; hyphens: auto; line-height: 16px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
-          <p style="Margin: 0; Margin-bottom: 10px; background-color: #eaf0f0; color: #000032; font-family: Helvetica,Arial,sans-serif; font-size: 12px; font-weight: normal; line-height: 1.3; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;"><b>Antistatique.net Sàrl</b></p>
+          <p style="Margin: 0; Margin-bottom: 10px; background-color: #eaf0f0; color: #808098 !important; font-family: Helvetica,Arial,sans-serif; font-size: 12px; font-weight: normal; line-height: 1.3; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;"><b>Antistatique.net Sàrl</b></p>
           <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="8px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 8px; font-weight: normal; hyphens: auto; line-height: 8px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 
           <p style="Margin: 0; Margin-bottom: 10px; background-color: #eaf0f0; color: #000032; font-family: Helvetica,Arial,sans-serif; font-size: 12px; font-weight: normal; line-height: 1.3; margin: 0; margin-bottom: 10px; padding: 0; text-align: left;">Vous recevez cette newsletter parce que vous êtes client ou partenaire d'Antistatique, ou parce que vous vous êtes directement inscrits à notre newsletter.</p>
           <table class="spacer" style="border-collapse: collapse; border-spacing: 0; padding: 0; text-align: left; vertical-align: top; width: 100%;"><tbody><tr style="padding: 0; text-align: left; vertical-align: top;"><td height="8px" style="-moz-hyphens: auto; -webkit-hyphens: auto; Margin: 0; border-collapse: collapse !important; color: #0a0a0a; font-family: Helvetica,Arial,sans-serif; font-size: 8px; font-weight: normal; hyphens: auto; line-height: 8px; margin: 0; mso-line-height-rule: exactly; padding: 0; text-align: left; vertical-align: top; word-wrap: break-word;">&#xA0;</td></tr></tbody></table> 

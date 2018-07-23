@@ -4,6 +4,7 @@ html, body {
 }
 .body { background-color: $digital-dust;}
 .header { background-color: $digital-dust;}
+container.content {background-color: $white;}
 .footer, .footer p { 
   background-color: $digital-dust; 
   font-size: 12px; 
@@ -44,7 +45,31 @@ a {
   background-color: #afc7c7;
   margin-bottom: 20px;
 }
+.rss {
+      color: $primary-color !important;
+    }
+.rss a {
+      color: $primary-color !important;
+    }
+.rss a:visited {
+      color: $primary-color !important;
+    }
 .meteo {
   display: inline;
-  margin: 0 10px;
+  margin: 0;
+}
+img.meteo {max-width:100px; }
+
+
+
+@media screen and (max-width: 760px){
+  img.meteo {width:80px !important; }
+}
+@media screen and (max-width: 480px){
+  img.meteo {max-width:60px !important; margin: 0!important; padding: 0 !important;}
+  h1 {font-size: 32px !important;}
+  h2 {font-size: 28px !important;}
+  h3 {font-size: 24px !important;}
+  h4 {font-size: 18px !important;}
+  p {font-size: 18px !important;}
 }

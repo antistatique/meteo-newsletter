@@ -26,7 +26,7 @@
           <h1><singleline label="Titre">Votre satisfaction est importante !</singleline></h1>
           <spacer size="16"></spacer>
           <multiline label="texte">
-            <p>Bonjour !<br><br>
+            <p>Bonjour [PrénomDécideur,fallback=]!<br><br>
             Garants de la qualité de notre travail, nous vous remercions d'avance de prendre quelques secondes de votre temps pour répondre à notre question, afin d'améliorer nos prestations et mieux répondre à vos besoins.<br><br>
             <b>Quelle est la météo de la semaine dans le cadre de votre projet  avec Antistatique ?</b></p>
           </multiline>
@@ -34,36 +34,39 @@
       </row>
       <spacer size="16"></spacer>
       <row>
-        <columns small="6">
-          <div class="meteo">
-            <center>
-            <a href="https://antistatique.net/fr/feedback-1">
-              <img class="meteo" src="cloud.png" alt="averses fréquentes">
-            </a>
-            <a href="https://antistatique.net/fr/feedback-2">
-              <img class="meteo" src="cloud.png" alt="nuages élevés">
-            </a>
-            <a href="https://antistatique.net/fr/feedback-3">
-              <img class="meteo" src="cloud.png" alt="en partie ensoleillé, passages nuageux parfois denses">
-            </a>
-            <a href="https://antistatique.net/fr/feedback-4">
-              <img class="meteo" src="cloud.png" alt="assez ensoleillé, quelques passages nuageux" width="100%">
-            </a>
-            <a href="https://antistatique.net/fr/feedback-5">
-              <img class="meteo" src="cloud.png" alt="ensoleillé" width="100%">
-            </a>
-            </center>
-          </div>
+        <columns small="12">
+          <center>
+          <a href="https://antistatique.net/fr/feedback-1">
+            <img class="meteo" src="1-rain@2x-test.png" alt="pluvieux">
+          </a>
+
+          <a href="https://antistatique.net/fr/feedback-2">
+            <img class="meteo" src="2-cloudy@2x-test.png" alt="nuageux">
+          </a>
+
+          <a href="https://antistatique.net/fr/feedback-3">
+            <img class="meteo" src="3-clear@2x-test.png" alt="dégagé">
+          </a>
+
+          <a href="https://antistatique.net/fr/feedback-4">
+            <img class="meteo" src="4-bright@2x-test.png" alt="clair">
+          </a>
+
+          <a href="https://antistatique.net/fr/feedback-5">
+            <img class="meteo" src="5-sunny@2x-test.png" alt="ensoleillé">
+          </a>
+          </center>
         </columns>
       </row>
       <row>
         <columns align="left">
-          <spacer size="16"></spacer>
           <multiline label="texte2">
+            <p style="font-size:12px">Cliquer sur le pictogramme qui correspond à votre météo du projet.</p>
+            <spacer size="16"></spacer>
             <p>Si vous n'êtes pas satisfait de nos prestations ou si vous avez un commentaire à faire, n'hésitez pas à répondre à cet e-mail pour nous en faire part.</p>
           </multiline>
           <multiline label="signature">
-            <p>- Marc</p>
+            <p>- [AR,fallback=Marc]</p>
           </multiline>
         </columns>
       </row>
@@ -72,10 +75,8 @@
         <columns large="6" class="rss">
           <h2><singleline label="Titre">Un peu de lecture</singleline></h2>
           <datarepeater type="rss" src="https://antistatique.net/fr/blog/rss.xml">
-            <h3><rssitemlink><rsstitle /></rssitemlink></h3>
-             <p>
-              <rssbody paragraphs="1" />
-            </p>
+            <div class="rss"><h3 class="rss"><rssitemlink><span style="color:#e30074; text-decoration:underline;"><rsstitle /></span></rssitemlink></h3></div>
+            <spacer size="8"></spacer>
           </datarepeater>
         </columns>
       </row>
@@ -87,7 +88,7 @@
       <row>
         <columns large="6">
           <spacer size="16"></spacer>
-          <p><b>Antistatique.net Sàrl</b></p>
+          <p style="color:#808098!important;"><b>Antistatique.net Sàrl</b></p>
           <spacer size="8"></spacer>
           <p>Vous recevez cette newsletter parce que vous êtes client ou partenaire d'Antistatique, ou parce que vous vous êtes directement inscrits à notre newsletter.</p>
           <spacer size="8"></spacer>
