@@ -1,12 +1,12 @@
 html, body {
   font-family: "Helvetica", Arial, sans-serif;
-  background-color: $digital-dust;
+  background-color: $white;
 }
-.body { background-color: $digital-dust;}
-.header { background-color: $digital-dust;}
+.body { background-color: $white;}
+.header { background-color: $white;}
 container.content {background-color: $white;}
 .footer, .footer p { 
-  background-color: $digital-dust; 
+  background-color: $white; 
   font-size: 12px; 
   color: $midnight-blue;
   }
@@ -21,7 +21,7 @@ h2 {
 }
 h3 {
   font-weight: bold;
-  color: $primary-color;
+  color: $midnight-blue;
   font-size: 18px;
 }
 h4 {
@@ -63,13 +63,13 @@ img.meteo {max-width:100px; }
 
 
 @media screen and (max-width: 760px){
-  img.meteo {width:80px !important; }
+  img.meteo {width:100px !important; }
 }
 @media screen and (max-width: 480px){
-  img.meteo {max-width:60px !important; margin: 0!important; padding: 0 !important;}
+  img.meteo {width:100px !important;}
   h1 {font-size: 32px !important;}
   h2 {font-size: 28px !important;}
-  h3 {font-size: 24px !important;}
+  h3 {font-size: 16px !important;}
   h4 {font-size: 18px !important;}
-  p {font-size: 18px !important;}
+  p {font-size: 14px !important;}
 }
